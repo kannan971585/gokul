@@ -17,7 +17,7 @@ public class UseEmployee {
 		List<Employee>e=employees.stream().filter(x->x.getSalary()>10000&&x.getSalary()<500000).collect(Collectors.toList());
 		e.forEach(c->System.out.println(c));
 		for(Employee a:employees) {
-			if(a.getSalary()>10000&&a.getSalary()<500000) {
+			if(a.getSalary()>20000&&a.getSalary()<500000) {
 				System.out.println(a);
 			}
 		}
